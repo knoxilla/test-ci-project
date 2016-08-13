@@ -1,4 +1,0 @@
-"docker": {
-    "cluster": "lambci-ecs-Cluster-1706HJ0KSX4VT",
-    "task": "lambci-ecs-BuildTask-11WOWNLRDF2I1",
-}

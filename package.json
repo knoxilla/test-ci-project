@@ -21,7 +21,11 @@
     "phantomjs:test": "phantomjs ./phantomwebintro.js"
   },
   "lambci": {
-    "cmd": "./build-java-1.8.sh"
+    "cmd": "./build-java-1.8.sh",
+    "docker": {
+      "cluster": "lambci-ecs-Cluster-1706HJ0KSX4VT",
+      "task": "lambci-ecs-BuildTask-11WOWNLRDF2I1"
+    }
   },
   "author": "",
   "license": "ISC"
