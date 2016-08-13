@@ -1,5 +1,10 @@
 FROM mhart/alpine-node:4
 
-ADD build-java-1.7.sh /build/
+ADD package.json /build/
+RUN cd /build && npm install
 
-CMD /build/build-java-1.7.sh
+ADD . .
+
+RUN rm -rf node_modules && mv /build/node_modules ./
+
+CMD npm test
