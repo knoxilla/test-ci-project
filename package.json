@@ -20,7 +20,7 @@
     "ci:node6": "nave use 6 npm test",
     "phantomjs:test": "phantomjs ./phantomwebintro.js"
   },
-  "lambci": {
+  "lambci": { 
     "cmd": "./build-python.sh"
   },
   "author": "",
